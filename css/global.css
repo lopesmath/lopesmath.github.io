@@ -1,0 +1,36 @@
+body {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: #e6e6e6;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.orange {
+  color: #e7804d;
+}
+
+img {
+  object-fit: cover;
+  object-position: center left;
+}

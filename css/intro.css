@@ -1,0 +1,130 @@
+.intro {
+  position: relative;
+}
+
+.intro footer {
+  position: absolute;
+  width: 100%;
+  height: 120px;
+  background: #0c0c0c;
+  bottom: 0;
+  z-index: 1;
+}
+
+.intro-container {
+  max-width: 1200px;
+  padding: 0 2.5rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.625rem;
+  align-items: center;
+}
+
+.intro-content {
+  display: grid;
+  justify-items: start;
+  align-self: start;
+  gap: 0.5rem;
+  margin-top: 46px;
+}
+
+.intro h1 {
+  text-transform: uppercase;
+  font-size: 4.25rem;
+  line-height: 5rem;
+  font-weight: 600;
+  color: #292929;
+}
+
+.intro p {
+  font-family: "Lato", Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  color: #525252;
+}
+
+.intro img {
+  width: 480px;
+  height: 620px;
+  justify-self: end;
+  object-fit: cover;
+  object-position: bottom right;
+  z-index: 10;
+}
+
+.intro a {
+  padding: 1rem 2rem;
+  border: #292929 solid 4px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+  margin: 1rem 0;
+}
+
+.intro a:hover {
+  background-color: #e7804d;
+}
+
+.intro a:visited {
+  color: #292929;
+}
+
+@media (max-width: 1200px) {
+  .intro h1 {
+    font-size: 3.5rem;
+    line-height: 4rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  .intro h1 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .intro h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .intro img {
+    height: 300px;
+    object-position: center center;
+  }
+  .intro footer {
+    display: none;
+  }
+}
+
+@media (max-width: 650px) {
+  .intro {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .intro h1 {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+  .intro img {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  .intro {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .intro h1 {
+    font-size: 2.25rem;
+    line-height: 3rem;
+  }
+  .intro img {
+    display: none;
+  }
+}
