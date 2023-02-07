@@ -6,14 +6,14 @@
 .contato-container {
   display: grid;
   justify-items: center;
-  max-width: 1200px;
+  max-width: 75rem;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto auto 1fr;
-  column-gap: 20px;
-  row-gap: 40px;
+  column-gap: 1.25rem;
+  row-gap: 2.5rem;
   z-index: 10;
   padding: 0 2.5rem;
-  padding-top: 60px;
+  padding-top: 3.75rem;
   color: #e6e6e6;
 }
 
@@ -21,50 +21,50 @@
   font-weight: 600;
 }
 .contato-card h3 {
-  padding-bottom: 20px;
+  padding-bottom: 1.25rem;
   font-weight: 600;
 }
 
 .contato-card {
-  border-left: #3d3d3d solid 2px;
-  padding-left: 40px;
+  border-left: #3d3d3d solid 0.125rem;
+  padding-left: 2.5rem;
 }
 
 .contato-card:hover {
-  border-left: #f08e5d solid 2px;
+  border-left: #f08e5d solid 0.125rem;
 }
 
 .contato-texto {
-  font-size: 14px;
-  line-height: 28px;
+  font-size: 0.875rem;
+  line-height: 1.75rem;
   font-weight: 600;
   color: #cccccc;
 }
 
 .direitos {
   background: #000;
-  padding: 16px 0px;
+  padding: 1rem 0rem;
   display: block;
   text-align: center;
   color: #929292;
 }
 
-@media (max-width: 630px) {
+@media (max-width: 39.375rem) {
   .contato-container {
     grid-template-columns: 1fr 1fr;
-    padding-bottom: 40px;
-    padding-top: 40px;
+    padding-bottom: 2.5rem;
+    padding-top: 2.5rem;
   }
   .contato-card {
-    padding-left: 10px;
+    padding-left: 0.625rem;
   }
 }
-@media (max-width: 460px) {
+@media (max-width: 28.75rem) {
   .contato-container {
     grid-template-columns: 1fr;
     justify-items: start;
   }
   .contato-card {
-    padding-left: 10px;
+    padding-left: 0.625rem;
   }
 }

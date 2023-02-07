@@ -27,28 +27,28 @@
 .header-menu li::before {
   content: "";
   display: block;
-  width: 8px;
-  height: 8px;
+  width: 0.5rem;
+  height: 0.5rem;
   background-color: #292929;
   border-radius: 50%;
   position: absolute;
-  top: 26px;
+  top: 1.625rem;
 }
 
 .header-menu li:hover::before {
   background-color: #e7804d;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 50rem) {
   .header {
     flex-direction: column;
-    gap: 40px;
+    gap: 2.5rem;
   }
 
   .header-menu a {
     /* background-color: #292929; */
     color: #292929;
-    border: #292929 solid 3px;
+    border: #292929 solid 0.1875rem;
     margin: 0.5rem;
   }
 
@@ -57,7 +57,7 @@
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 40.625rem) {
   .header-menu a {
     /* background-color: #292929; */
     margin: 0.25rem;
