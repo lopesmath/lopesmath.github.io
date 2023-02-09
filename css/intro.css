@@ -29,14 +29,6 @@
   margin-top: 2.875rem;
 }
 
-.intro h1 {
-  text-transform: uppercase;
-  font-size: 4.25rem;
-  line-height: 5rem;
-  font-weight: 600;
-  color: #292929;
-}
-
 .intro p {
   font-family: "Lato", Arial, Helvetica, sans-serif;
   font-size: 1.5rem;
